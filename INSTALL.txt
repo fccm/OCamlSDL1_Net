@@ -1,0 +1,8 @@
+=== Linux and Cygwin ===
+
+If you installed the SDL_net library in /usr/local 
+then you should be able to compile these ocaml bindings 
+with:
+
+ make INC_DIR=/usr/local/include/SDL LIB_DIR=/usr/local/lib
+
